@@ -1,11 +1,13 @@
 /* mobile */
 body {
   background-color: black;
+  display: flex;
+  justify-content: center;
 }
 header {
   background-image: url(/food\ background.jpg);
   height: 430px;
-  width: 390px;
+  width: 370px;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -17,7 +19,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  margin-top: -40px;
+  margin-top: -55px;
 }
 
 form {
@@ -52,13 +54,27 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-input,
-button {
-  margin: 10px;
+  justify-content: flex-start;
+  border: solid white;
+  height: 800px;
+  width: 370px;
+  border-radius: 2rem;
 }
 
 input {
+  margin-top: 20px;
   width: 300px;
+  height: 20px;
+  border: solid #ff0025;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 40px;
+  background-color: #5b00ff;
+  color: #00ffdb;
+  width: 170px;
+  height: 30px;
+  border-radius: 2rem;
+  align-self: center;
 }
