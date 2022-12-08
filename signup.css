@@ -1,5 +1,64 @@
 /* mobile */
-
+body {
+  background-color: black;
+}
 header {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/006/823/934/original/set-icons-with-foods-doodle-with-foods-icons-on-black-background-vintage-food-set-icons-sweet-elements-background-for-your-project-menu-cafe-shop-free-vector.jpg);
+  background-image: url(/food\ background.jpg);
+  height: 430px;
+  width: 390px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  width: 157px;
+  height: 157px;
+  border-radius: 15%;
+}
+
+#foodFace {
+  background-color: black;
+}
+
+h1 {
+  color: #5b00ff;
+}
+
+#food {
+  color: #ff0025;
+}
+
+.text {
+  color: #00ffdb;
+}
+
+#outerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  margin: 10px;
+}
+
+input {
+  width: 300px;
 }

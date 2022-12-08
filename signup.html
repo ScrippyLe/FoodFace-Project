@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <div id="outerContainer">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,12 +11,25 @@
   <body>
     <header>
       <img
-        src="/FoodFace Pix/foodface logo black.png"
+        id="logo"
+        src="/foodface logo black.png"
         alt="logo for foodface"
       />
       <h1>
         <span id="foodFace"><span id="food">Food</span>Face</span>
       </h1>
     </header>
+    <main>
+      <h2 id="signUpText" class="text">Sign up</h2>
+      <p id="heyThere" class="text">Hey there foodie! May we have your info?</p>
+      <form action="form">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Email address">
+        <input type="text" placeholder="Password">
+        <input type="text" placeholder="Confirm password">
+        <button>Sign up</button>
+      </form>  
+    </main>
+  </div>
   </body>
 </html>
