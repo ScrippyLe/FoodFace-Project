@@ -1,0 +1,123 @@
+/* mobile */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-image: url(/food\ background.jpg);
+  height: 430px;
+  width: 370px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: -55px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  width: 157px;
+  height: 157px;
+  border-radius: 15%;
+}
+
+#foodFace {
+  background-color: black;
+}
+
+h1 {
+  color: #5b00ff;
+}
+
+#food {
+  color: #ff0025;
+}
+
+.text {
+  color: #00ffdb;
+}
+
+#outerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  border: solid white;
+  height: 800px;
+  width: 370px;
+  border-radius: 2rem;
+}
+
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 20px;
+  border: solid #ff0025;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 40px;
+  background-color: #5b00ff;
+  color: #00ffdb;
+  width: 170px;
+  height: 30px;
+  border-radius: 2rem;
+  align-self: center;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#here {
+  color: #ff0025;
+}
+
+#newUser {
+  margin-top: -5px;
+}
+
+/* Desktop */
+
+@media (min-width: 800px) {
+  body {
+    background-image: url(/food\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+  }
+
+  #outerContainer {
+    background-color: black;
+    height: 760px;
+    width: 550px;
+    margin: 100px;
+  }
+
+  header {
+    background-color: black;
+    background-image: none;
+  }
+
+  main {
+    margin-top: -100px;
+    text-align: center;
+  }
+}
