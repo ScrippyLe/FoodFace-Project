@@ -77,4 +77,39 @@ button {
   height: 30px;
   border-radius: 2rem;
   align-self: center;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Desktop */
+
+@media (min-width: 800px) {
+  body {
+    background-image: url(/food\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+  }
+
+  #outerContainer {
+    background-color: black;
+    height: 760px;
+    width: 550px;
+    margin: 100px;
+  }
+
+  header {
+    background-color: black;
+    background-image: none;
+  }
+
+  main {
+    margin-top: -100px;
+    text-align: center;
+  }
 }
