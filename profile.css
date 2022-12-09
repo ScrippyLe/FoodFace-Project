@@ -1,0 +1,35 @@
+/* mobile */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#outerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: #00ffdb;
+  font-size: 16px;
+}
+
+p {
+  color: #7755ff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#infoContainer {
+  border: solid #7755ff 3px;
+  margin-top: -3.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
