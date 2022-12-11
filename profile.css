@@ -140,3 +140,93 @@ p {
   width: 428px;
   margin-bottom: 20px;
 }
+
+.desktopOnly {
+  display: none;
+}
+
+/* Desktop */
+
+@media (min-width: 600px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      #000000 4.69%,
+      #190087 19.27%,
+      #3e00b3 35.94%,
+      #6b00d7 52.08%,
+      #a230ed 68.75%,
+      #c364fa 84.37%,
+      #d391fa 100%
+    );
+  }
+
+  #outerContainer {
+    width: 806px;
+    height: 3029px;
+    background-color: #000000;
+  }
+
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: flex;
+  }
+
+  #infoContainer {
+    margin-top: 1px;
+    border: solid 4px #7755ff;
+    border-left: none;
+    border-right: none;
+  }
+
+  #profilePic {
+    align-self: center;
+    margin-top: -170px;
+    margin-left: 25px;
+  }
+
+  #info {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  #nameInfoDesktop {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #headerIconsLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  #headerIconsRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #headerIcons {
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+  }
+
+  .searchBar {
+    margin: 0px 15px;
+  }
+
+  #teal {
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #friendsTop {
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+  }
+}
