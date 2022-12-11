@@ -10,11 +10,13 @@
   <body>
     <div id="outerContainer">
       <header>
-        <img
+        <img class="mobileOnly"
           src="./foodpix/susie's header mobile.png"
           alt="susie's header pic"
         />
-        <div id="infoContainer">
+        <img class="desktopOnly" src="./foodpix/susie's header desktop.png" alt="susie's header pic desktop">
+        <!-- Mobile Header -->
+        <div class="mobileOnly" id="infoContainer">
           <div id="content">
             <div id="iconsLeft">
               <img src="./icons/home icon.png" alt="home icon" />
@@ -38,20 +40,61 @@
             </p>
           </div>
         </div>
+        <!-- Desktop Header -->
+        <div class="desktopOnly" id="infoContainer">
+          <div id="content">
+            <img class="desktopOnly" id="profilePic" src="./friends/susie profile pic desktop.png" alt="susie's profile pic desktop">
+            <div id="info">
+              <div id="nameInfoDesktop">
+                <h1>Susie Sushi</h1>
+                <h2>28, Duluth GA</h2>
+              </div>
+            <p>
+              Adventurous eater.
+              Healthy foods. <br />
+              Home cooked meals.
+            </p>
+          </div>
+          <div id="headerIcons">
+            <div id="headerIconsLeft">
+              <img src="./icons/edit icon desktop header.png" alt="edit icon desktop">
+              <img src="./icons/three dots icon desktop header.png" alt="kebab menu desktop">
+            </div>
+            <div id="headerIconsRight">
+              <img src="./icons/message icon desktop header.png" alt="message icon desktop">
+              <img src="./icons/home icon desktop header.png" alt="home icon desktop">
+            </div>
+          </div>
+        </div>
       </header>
       <main>
         <div class="searchBar">
           <h3 id="foodFriends">Food Friends</h3>
           <img class="centeredIcon" src="./icons/search icon.png" alt="search icon" />
         </div>
-
+        <!-- friends mobile -->
         <div id="teal">
-          <img src="./friends/mobile1.png" alt="friend 1 mobile pic" />
-          <img src="./friends/mobile2.png" alt="friend 2 mobile pic" />
-          <img src="./friends/mobile3.png" alt="friend 3 mobile pic" />
-          <img src="./friends/mobile4.png" alt="friend 4 mobile pic" />
-          <img src="./friends/mobile5.png" alt="friend 5 mobile pic" />
-          <img src="./friends/mobile6.png" alt="friend 6 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile1.png" alt="friend 1 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile2.png" alt="friend 2 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile3.png" alt="friend 3 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile4.png" alt="friend 4 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile5.png" alt="friend 5 mobile pic" />
+          <img class="mobileOnly" src="./friends/mobile6.png" alt="friend 6 mobile pic" />
+          <!-- desktop friends -->
+          <div id="friendsTop">
+            <img src="./friends/friend1.png" alt="friend 1">
+            <img src="./friends/friend2.png" alt="friend 2">
+            <img src="./friends/friend3.png" alt="friend 3">
+            <img src="./friends/friend4.png" alt="friend 4">
+            <img src="./friends/friend5.png" alt="friend 5">
+          </div>
+          <div id="friendsBottom">
+            <img src="./friends/friend6.png" alt="friend 6">
+            <img src="./friends/friend7.png" alt="friend 7">
+            <img src="./friends/friend8.png" alt="friend 8">
+            <img src="./friends/friend9.png" alt="friend 9">
+            <img src="./friends/friend10.png" alt="friend 10">
+          </div>  
         </div>
 
         <div class="searchBar">
