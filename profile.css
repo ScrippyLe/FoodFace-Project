@@ -33,3 +33,20 @@ p {
   flex-direction: column;
   align-items: center;
 }
+
+#foodFriends {
+  color: #00ffdb;
+}
+
+#foodGroups {
+  color: #7755ff;
+}
+
+#foodFeed {
+  color: #ff0025;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+}
