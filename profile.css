@@ -111,7 +111,7 @@ p {
 .postContainerTeal {
   border: #00ffdb solid;
   height: 430px;
-  width: 428px;
+  /* width: 428px; */
   margin-bottom: 20px;
 }
 
@@ -135,7 +135,7 @@ p {
 .postContainerPurple {
   border: #7755ff solid;
   height: 430px;
-  width: 428px;
+  /* width: 428px; */
   margin-bottom: 20px;
 }
 
@@ -145,7 +145,7 @@ p {
 
 /* Desktop */
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   body {
     background: linear-gradient(
       180deg,
@@ -161,7 +161,6 @@ p {
 
   #outerContainer {
     width: 806px;
-    height: 3029px;
     background-color: #000000;
   }
 
@@ -222,7 +221,7 @@ p {
     flex-direction: column;
   }
 
-   .friendsAndGroups{
+  .friendsAndGroups {
     display: flex;
     align-items: space-evenly;
     justify-content: space-evenly;
@@ -232,5 +231,13 @@ p {
     height: 324px;
     display: flex;
     flex-direction: column;
+  }
 
+  .postContainerTeal {
+    height: 620px;
+  }
+  .postContainerPurple {
+    height: 620px;
+    padding-bottom: 20px;
+  }
 }
