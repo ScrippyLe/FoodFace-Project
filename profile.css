@@ -26,12 +26,13 @@ p {
   font-weight: bold;
 }
 
+#profilePic {
+  margin-top: -50px;
+}
+
 #infoContainer {
   border: solid #7755ff 3px;
   margin-top: -3.5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 #foodFriends {
@@ -49,4 +50,93 @@ p {
 .searchBar {
   display: flex;
   justify-content: space-between;
+}
+
+.centeredIcon {
+  align-self: center;
+}
+
+#teal {
+  background-color: #00ffdb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+}
+
+#purple {
+  background-color: #7755ff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 7px;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#info {
+  text-align: center;
+}
+
+#folderIcon {
+  height: 28.94px;
+  width: 28.7px;
+}
+
+#roundAddIcon {
+  height: 22.7px;
+  width: 25.7px;
+}
+
+.postProfile {
+  align-self: center;
+}
+
+.topOfPost {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.profileName {
+  display: flex;
+}
+
+.namePostTeal {
+  margin-left: 15px;
+  color: #00ffdb;
+}
+
+.postContainerTeal {
+  border: #00ffdb solid;
+  height: 430px;
+  width: 428px;
+  margin-bottom: 20px;
+}
+
+.postImg {
+  display: flex;
+  justify-content: center;
+}
+
+.postCaption {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+}
+
+.namePostPurple {
+  color: #7755ff;
+  margin-left: 15px;
+}
+
+.postContainerPurple {
+  border: #7755ff solid;
+  height: 430px;
+  width: 428px;
+  margin-bottom: 20px;
 }

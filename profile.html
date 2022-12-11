@@ -16,25 +16,33 @@
         />
         <div id="infoContainer">
           <div id="content">
-            <img src="./icons/home icon.png" alt="home icon" />
-            <img src="./icons/search icon.png" alt="search icon" />
-            <img src="./friends/susie icon mobile.png" alt="" />
-            <img src="./icons/edit icon.png" alt="edit icon" />
-            <img src="./icons/three dots icon.png" alt="kebab menu" />
+            <div id="iconsLeft">
+              <img src="./icons/home icon.png" alt="home icon" />
+              <img src="./icons/search icon.png" alt="search icon" />
+            </div>
+            <div id="profilePic">
+              <img src="./friends/susie icon mobile.png" alt="" />
+            </div>
+            <div id="iconsRight">
+              <img src="./icons/edit icon.png" alt="edit icon" />
+              <img src="./icons/three dots icon.png" alt="kebab menu" />
+            </div>
           </div>
-          <h1>Susie Sushi</h1>
-          <h2>28, Duluth GA</h2>
-          <p>
-            Adventurous eater <br />
-            Healthy foods <br />
-            Home cooked meals
-          </p>
+          <div id="info">
+            <h1>Susie Sushi</h1>
+            <h2>28, Duluth GA</h2>
+            <p>
+              Adventurous eater <br />
+              Healthy foods <br />
+              Home cooked meals
+            </p>
+          </div>
         </div>
       </header>
       <main>
         <div class="searchBar">
           <h3 id="foodFriends">Food Friends</h3>
-          <img src="./icons/search icon.png" alt="" />
+          <img class="centeredIcon" src="./icons/search icon.png" alt="search icon" />
         </div>
 
         <div id="teal">
@@ -48,7 +56,7 @@
 
         <div class="searchBar">
           <h3 id="foodGroups">Food Groups</h3>
-          <img src="./icons/search icon.png" alt="" />
+          <img class="centeredIcon" src="./icons/search icon.png" alt="search icon" />
         </div>
 
         <div id="purple">
@@ -62,9 +70,49 @@
 
         <div class="searchBar">
           <h3 id="foodFeed">Food Feed</h3>
-          <img src="./icons/search icon.png" alt="" />
+          <div id="feedIcons">
+          <img class="centeredIcon" src="./icons/search icon.png" alt="search icon" />
+          <img id="folderIcon" class="centeredIcon" src="./icons/folder icon.png" alt="folder icon">
+          <img id="roundAddIcon" class="centeredIcon" src="./icons/add icon round white.png" alt="round add icon">
+          </div>
         </div>
+        
+        <div class="postContainerTeal">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img class="postProfile" src="./friends/susie post pic.png" alt="susie icon for posts">
+              <p class="namePostTeal">Susie Sushi</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon">
+              <img src="./icons/message icon.png" alt="message icon">
+              <img src="./icons/share icon.png" alt="share icon">
+            </div>
+          </div>
+        <div class="postImg">
+          <img src="./posts/susie post 1 mobile.png" alt="susie post 1 mobile">
+        </div>
+        <p class="postCaption">This was by far the tastiest sushi I've had in awhile</p>
+      </div>
+
+      <div class="postContainerPurple">
+        <div class="topOfPost">
+          <div class="profileName">
+            <img class="postProfile" src="./friends/susie post pic.png" alt="susie icon for posts">
+            <p class="namePostPurple">Susie Sushi</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon">
+              <img src="./icons/message icon.png" alt="message icon">
+              <img src="./icons/share icon.png" alt="share icon">
+            </div>
+          </div>
+          <div class="postImg">
+          <img src="./posts/susie post 2 mobile.png" alt="susie post 2 mobile">
+        </div>
+        <p class="postCaption">Nothing beats hot pot on a cold day!</p>
+        </div>
+      </div>
       </main>
-    </div>
   </body>
 </html>
