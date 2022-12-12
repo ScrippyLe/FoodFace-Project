@@ -15,24 +15,62 @@
             src="./icons/mobile header logo home page.png"
             alt="mobile logo for home page"
           />
-          <h1>Food<span>Face</span></h1>
+          <!-- Desktop -->
+          <input
+            class="onlyDesktop"
+            type="text"
+            name="searchFoodFace"
+            id="searchFoodFace"
+            placeholder="Search FoodFace"
+          />
+          <img
+            class="onlyDesktop"
+            id="desktopSearchIcon"
+            src="./icons/Black Search Icon.png"
+            alt="desktopSearchIcon"
+          />
+          <!-- Mobile -->
+          <h1 class="onlyMobile">Food<span>Face</span></h1>
         </div>
+        <!-- Mobile -->
         <div id="headerIcons">
           <img
+            class="onlyMobile"
             src="./icons/hamburger menu home page mobile.png"
             alt="hamburger menu home page mobile"
           />
           <img
+            class="onlyMobile"
             src="./icons/search icon home page mobile.png"
             alt="search icon home page mobile"
           />
           <img
+            class="onlyMobile"
             src="./icons/add icon no circle home page mobile.png"
             alt="add icon no circle home page mobile"
           />
           <img
+            class="onlyMobile"
             src="./icons/message icon home page mobile.png"
             alt="message icon home page mobile"
+          />
+        </div>
+        <!-- Desktop -->
+        <div class="onlyDesktop" id="desktopHeaderIcons">
+          <img
+            class="onlyDesktop"
+            src="./icons/bell icon special.png"
+            alt="desktop bell icon"
+          />
+          <img
+            class="onlyDesktop"
+            src="./icons/menu icon special.png"
+            alt="desktop menu icon"
+          />
+          <img
+            class="onlyDesktop"
+            src="./icons/message icon special.png"
+            alt="desktop message icon"
           />
         </div>
       </header>
@@ -60,7 +98,7 @@
               <img
                 class="postProfile"
                 src="./posts/amy meatball mobile.png"
-                alt="pic for amy meatball"
+                alt="amy profile img"
               />
               <p class="namePostTeal">Amy Meatball</p>
             </div>
@@ -72,24 +110,23 @@
           </div>
           <div class="postImg">
             <img
-              class="mobileOnly"
+              class="imgAutoSize"
               src="./posts/amy post mobile.png"
-              alt="amy post mobile"
+              alt="amy post desktop"
             />
-            <!-- <img class="desktopOnly" src="./posts/susie post 1.png" alt="susie post 1 desktop"> -->
           </div>
           <p class="postCaption">Grandma’s recipe never fails <3</p>
         </div>
 
-        <div class="postContainerPurple">
+        <div class="postContainerPurple postContainerRed">
           <div class="topOfPost">
             <div class="profileName">
               <img
                 class="postProfile"
                 src="./posts/tony taco mobile.png"
-                alt="pic for amy meatball"
+                alt="tony profile img"
               />
-              <p class="namePostPurple">Tony Taco</p>
+              <p class="namePostPurple namePostRed">Tony Taco</p>
             </div>
             <div class="postIcons">
               <img src="./icons/heart icon.png" alt="heart icon" />
@@ -99,15 +136,40 @@
           </div>
           <div class="postImg">
             <img
-              class="mobileOnly"
+              class="imgAutoSize"
               src="./posts/tony post mobile.png"
-              alt="amy post mobile"
+              alt="tony post desktop"
             />
-            <!-- <img class="desktopOnly" src="./posts/susie post 1.png" alt="susie post 1 desktop"> -->
           </div>
           <p class="postCaption">
             I’m at it again guys! Tacos all day everyday!
           </p>
+        </div>
+
+        <div class="postContainerRed onlyDesktop">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img
+                class="postProfile"
+                src="./posts/polly pepperoni.png"
+                alt="polly profile img"
+              />
+              <p class="namePostRed">Polly Pepperoni</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon" />
+              <img src="./icons/message icon.png" alt="message icon" />
+              <img src="./icons/share icon.png" alt="share icon" />
+            </div>
+          </div>
+          <div class="postImg">
+            <img
+              class="imgAutoSize"
+              src="./posts/polly post.png"
+              alt="polly post desktop"
+            />
+          </div>
+          <p class="postCaption">The cheese pull is everything!</p>
         </div>
 
         <div class="postContainerTeal">
@@ -116,7 +178,7 @@
               <img
                 class="postProfile"
                 src="./posts/sam sandwich mobile.png"
-                alt="pic for amy meatball"
+                alt="sam profile img"
               />
               <p class="namePostTeal">Sam Sandwich</p>
             </div>
@@ -128,14 +190,121 @@
           </div>
           <div class="postImg">
             <img
-              class="mobileOnly"
+              class="imgAutoSize"
               src="./posts/sam post mobile.png"
-              alt="amy post mobile"
+              alt="sam post desktop"
             />
-            <!-- <img class="desktopOnly" src="./posts/susie post 1.png" alt="susie post 1 desktop"> -->
           </div>
           <p class="postCaption">
             I highly recommend this place, best subs ever!
+          </p>
+        </div>
+
+        <div class="postContainerTeal onlyDesktop">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img
+                class="postProfile"
+                src="./posts/ray ramen.png"
+                alt="ray profile img"
+              />
+              <p class="namePostTeal">Ray Ramen</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon" />
+              <img src="./icons/message icon.png" alt="message icon" />
+              <img src="./icons/share icon.png" alt="share icon" />
+            </div>
+          </div>
+          <div class="postImg">
+            <img
+              class="imgAutoSize"
+              src="./posts/ray post.png"
+              alt="ray post desktop"
+            />
+          </div>
+          <p class="postCaption">
+            The texture of these noodles were to die for...
+          </p>
+        </div>
+
+        <div class="postContainerRed onlyDesktop">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img
+                class="postProfile"
+                src="./posts/sally seafood.png"
+                alt="sally profile img"
+              />
+              <p class="namePostPurple namePostRed">Sally Seafood</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon" />
+              <img src="./icons/message icon.png" alt="message icon" />
+              <img src="./icons/share icon.png" alt="share icon" />
+            </div>
+          </div>
+          <div class="postImg">
+            <img
+              class="imgAutoSize"
+              src="./posts/sally post.png"
+              alt="sally post desktop"
+            />
+          </div>
+          <p class="postCaption">Garlic butter makes everthing better!</p>
+        </div>
+
+        <div class="postContainerRed onlyDesktop">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img
+                class="postProfile"
+                src="./posts/penny penne.png"
+                alt="penne profile img"
+              />
+              <p class="namePostPurple namePostRed">Penny Penne</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon" />
+              <img src="./icons/message icon.png" alt="message icon" />
+              <img src="./icons/share icon.png" alt="share icon" />
+            </div>
+          </div>
+          <div class="postImg">
+            <img
+              class="imgAutoSize"
+              src="./posts/penny post.png"
+              alt="penne post desktop"
+            />
+          </div>
+          <p class="postCaption">Healthy and delicious pasta salad :)</p>
+        </div>
+
+        <div class="postContainerTeal onlyDesktop">
+          <div class="topOfPost">
+            <div class="profileName">
+              <img
+                class="postProfile"
+                src="./posts/fred fried chicken.png"
+                alt="fred profile img"
+              />
+              <p class="namePostTeal">Fred Fried Chicken</p>
+            </div>
+            <div class="postIcons">
+              <img src="./icons/heart icon.png" alt="heart icon" />
+              <img src="./icons/message icon.png" alt="message icon" />
+              <img src="./icons/share icon.png" alt="share icon" />
+            </div>
+          </div>
+          <div class="postImg">
+            <img
+              class="imgAutoSize"
+              src="./posts/fred post.png"
+              alt="fred post desktop"
+            />
+          </div>
+          <p class="postCaption">
+            Drums are the best! You can keep your flats!! lol
           </p>
         </div>
       </main>
