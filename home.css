@@ -1,0 +1,114 @@
+/* Mobile */
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #ff0025;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+span {
+  color: #5b00ff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#headerIcons {
+  align-self: center;
+}
+
+#outerContainer {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
+}
+
+#profilePic {
+  display: flex;
+  align-self: center;
+}
+
+#statusBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 288px;
+  height: 30px;
+  border-radius: 2rem;
+}
+
+#purpleAdd {
+  align-self: center;
+  margin-left: -33px;
+}
+
+#addBar {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.postContainerTeal {
+  border: #00ffdb solid;
+  height: 430px;
+  /* width: 428px; */
+  margin-bottom: 20px;
+}
+
+.topOfPost {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.profileName {
+  display: flex;
+}
+
+.namePostTeal {
+  margin-left: 15px;
+  color: #00ffdb;
+}
+
+.postImg {
+  display: flex;
+  justify-content: center;
+}
+
+.postCaption {
+  text-align: center;
+  margin-top: 32px;
+  color: white;
+  font-size: 16px;
+}
+
+.postContainerPurple {
+  border: #7755ff solid;
+  height: 430px;
+  /* width: 428px; */
+  margin-bottom: 20px;
+}
+
+.namePostPurple {
+  color: #7755ff;
+  margin-left: 15px;
+}
