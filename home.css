@@ -101,6 +101,7 @@ input {
 .postCaption {
   text-align: center;
   margin-top: 32px;
+  margin-bottom: 32px;
   color: white;
   font-size: 16px;
 }
@@ -115,4 +116,107 @@ input {
 .namePostPurple {
   color: #7755ff;
   margin-left: 15px;
+}
+
+.postProfile {
+  height: 50px;
+}
+
+.onlyDesktop {
+  display: none;
+}
+
+/* Desktop */
+@media (min-width: 800px) {
+  .onlyMobile {
+    display: none;
+  }
+
+  .onlyDesktop {
+    display: inline;
+  }
+
+  body {
+    background: linear-gradient(
+      180deg,
+      #000000 4.69%,
+      #190087 19.27%,
+      #3e00b3 35.94%,
+      #6b00d7 52.08%,
+      #a230ed 68.75%,
+      #c364fa 84.37%,
+      #d391fa 100%
+    );
+  }
+
+  #outerContainer {
+    width: 100%;
+  }
+
+  #searchFoodFace {
+    font-size: 18px;
+    font-weight: 800;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+
+  #desktopSearchIcon {
+    height: 20px;
+    margin-left: -202px;
+    margin-top: 10px;
+  }
+
+  #desktopHeaderIcons img {
+    height: 34px;
+    margin-left: 50px;
+  }
+
+  header {
+    margin: 0;
+  }
+
+  #statusBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #profilePic {
+    margin-top: -25px;
+    margin-right: 25px;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .postContainerTeal {
+    width: 45%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #000000;
+  }
+
+  .postContainerRed {
+    width: 45%;
+    height: auto;
+    border: solid #ff0025;
+    border-radius: 1rem;
+    background-color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .imgAutoSize {
+    width: 95%;
+    height: auto;
+  }
+
+  .namePostRed {
+    color: #ff0025;
+    margin-left: 15px;
+  }
 }
